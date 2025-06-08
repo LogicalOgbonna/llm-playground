@@ -1,0 +1,17 @@
+meta {
+  name: query
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/search
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "index_name": "with-permission"
+  }
+}
