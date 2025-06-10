@@ -1,0 +1,31 @@
+{
+  "name": "servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && shx chmod +x build/example/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.53.0",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.5.0",
+    "ollama": "^0.5.16",
+    "zod": "^3.25.56",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
+  },
+  "bin": {
+    "weather": "./build/example/index.js"
+  },
+  "files": [
+    "build"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "node",
+        "args": ["/Users/arinzeogbonna/Work/personal/llm/mcp/stdio/servers/build/example/index.js"]
+      }
+    }
+  }
